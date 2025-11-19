@@ -15,3 +15,9 @@
 - **解密支持**：实现外置解密器，对 Clearkey 保护的流进行解密。
 - **智能频道匹配**：智能 EPG 到频道的映射，支持自定义映射
 - **更多的字幕支持**：DVB/PGS，TTML，WebVTT等
+
+
+## FAQ
+Q1. Windows用户提示找不到MSVCP140.dll、VCRUNTIME140_1.dll、VCRUNTIME140.dll之类的文件。
+- 缺失Visual C++ Redistributable v14 运行库，请到[https://learn.microsoft.com/zh-cn/cpp/windows/latest-supported-vc-redist](https://learn.microsoft.com/cpp/windows/latest-supported-vc-redist) 下载。
+- 不要从第三方网站下载单独的 DLL 文件，容易有安全风险。
